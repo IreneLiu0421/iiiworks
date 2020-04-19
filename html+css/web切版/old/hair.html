@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hairmap</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+            border: 1px solid lightseagreen;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .header ul {
+            list-style: none;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .header ul li a {
+            color: #979797;
+            margin: 10px;
+        }
+
+        .log img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .log ul {
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .banner {
+            position: relative;
+        }
+
+        /* 
+        .banner figure,
+        h1,
+        h2,
+        .searchbar {
+            position: absolute;
+            /* left: 50%; */
+        /* display: block; */
+
+        /* }. */
+
+        .searchbar ul li {
+            list-style: none;
+            border: 1px pink solid;
+            margin: 10px;
+        }
+
+        .contain p {
+            text-align: center;
+        }
+
+        .hottopic,
+        .trendtopic {
+            justify-content: space-evenly;
+        }
+
+        .hottopic img {
+            max-width: 192px;
+
+
+        }
+
+        .trendtopic img {
+            max-width: 230px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="wrapper">
+        <div class=" header flex">
+            <div class="l_header flex">
+                <figure>
+                    <img src="pics_1129/logo.png" alt="">
+                </figure>
+                <ul class="list flex">
+                    <li><a href="#">找髮型</a></li>
+                    <li><a href="#">找設計師</a></li>
+                    <li><a href="#">美髮誌</a></li>
+                </ul>
+            </div>
+            <div class="log">
+                <!-- <ul class="flex">
+                    <li><a href="">註冊</a></li>
+                    <li><a href="">登入</a></li>
+                    <li><a href=""><img src="pics_1129/setting_h.png" alt=""></a></li>
+                </ul> -->
+                <a href="#">註冊</a>
+                <a href="#">登入</a>
+                <img src="pics_1129/setting.png" alt="">
+            </div>
+
+        </div>
+    </header>
+    <banner>
+        <div class="banner wrapper">
+            <div class="top">
+                <figure>
+                    <img src="images/logo_icon_g.svg" alt="">
+                </figure>
+                <h1>煩惱髮型嗎</h1>
+                <h2>給你最多髮型靈感及在地優秀設計師</h2>
+                <div class="searchbar">
+                    <ul class="flex">
+                        <li><a href="#">
+                                <img src="" alt="">
+                                <span>找地區</span>
+                            </a></li>
+                        <li><a href="#">
+                                <img src="" alt="">
+                                <span>搜尋髮型主題</span>
+                            </a></li>
+                        <li><a href="#">
+                                <img src="" alt="">
+                                <span>去逛逛</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom flex">
+                <div class="lside">
+                    <figure>
+                        <img src="pics_1129/icon_search.png" alt="">
+                    </figure>
+                    <p>在地設計師作品輕鬆找</p>
+                </div>
+                <div class="center">
+                    <figure>
+                        <img src="pics_1129/icon_fashion.png" alt="">
+                    </figure>
+                    <p>流行髮型一手掌握</p>
+                </div>
+                <div class="rside">
+                    <figure>
+                        <img src="pics_1129/icon_book.png" alt="">
+                    </figure>
+                    <p>即時溝通預約</p>
+                </div>
+            </div>
+        </div>
+    </banner>
+    <contain>
+        <div class="wrapper contain">
+            <div class="containtop">
+                <p>熱門主題</p>
+                <div class="hottopic flex">
+
+                    <figure><img src="images/22736_8.jpg" alt=""></figure>
+                    <figure><img src="images/3425_14.jpg" alt=""></figure>
+                    <figure><img src="images/14366_18.jpg" alt=""></figure>
+                    <figure><img src="images/9743_2.jpg" alt=""></figure>
+                </div>
+                <a href="#">more</a>
+            </div>
+            <div class="containbottom">
+                <p>趨勢話題</p>
+                <div class="trendtopic flex">
+
+                    <figure><img src="images/9344.jpg" alt=""></figure>
+                    <figure><img src="images/128141.jpg" alt=""></figure>
+                    <figure><img src="images/138974.jpg" alt=""></figure>
+                </div>
+                <a href="#">more</a>
+            </div>
+        </div>
+    </contain>
+    <bottom>
+
+    </bottom>
+</body>
+
+</html>
